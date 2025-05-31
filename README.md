@@ -16,7 +16,7 @@ My collection of ways to bypass internet censorship/blocking
 | ProtonOverAmnezia | Connect to Proton using WG confings on their [site](https://protonvpn.com) and "Obfuscate WG" setting in AmneziaVPN                                            | ✅ | Android/iOS/MacOS/Linux | 10/10 |
 | ProtonOverAWG     | Connect to Proton using WG confings on their [site](https://protonvpn.com) and modifying setting in native AWG client (JC = 3 or 4 or 5, Jmin = 40, Jmax = 70) | ✅ | Android/iOS/MacOS/Linux | 10/10 |
 
-### README
+### Dictionary
 VPN - Virtual Private Network
 
 AWG - AmneziaWG VPN protocol, fork of WG with DPI protection
@@ -65,7 +65,7 @@ AmneziaWG native client - WG client modifyed to work with AWG
 |-------------------|-----------------------------------------------|------|---------|-----------------------------------|
 | GoodbyeDPI+Zapret | Simply launching GDPI and Zapret at same time | ✅    | Windows | 10/10 Finally, Discord with working calls |
 
-### README
+### Dictionary
 DPI - Deep Packet Inspection, used for censoring/blocking internet access
 
 Tor - The Onion Router, private network
