@@ -5,16 +5,16 @@ My collection of ways to bypass internet censorship/blocking
 ### Ready solutions
 | Name       | Protocol        | Free  | OS                      | My review                        | Site                           | Mirror                                                                                                                                   |
 |------------|-----------------|-------|-------------------------|----------------------------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| AmneziaVPN | AmneziaWG       | 50/50 | Android/iOS/MacOS       | 5/10 Works only on certain sites | [Click](https://amnezia.org)   | [Google](https://amnezia.org/https://storage.googleapis.com/amnezia/amnezia.org) [GitHub](https://github.com/amnezia-vpn/amnezia-client) |
-| ProtonVPN  | Stealth/WG/OVPN | 50/50 | Android/iOS/MacOS/Linux | 10/10 Fast, no ads, secure               | [Click](https://protonvpn.com) | [GitHub](https://github.com/ProtonVPN)                                                                                                   |
+| AmneziaVPN | AmneziaWG       | 50/50 | Android/Win/iOS/MacOS/Linux       | 5/10 Works only on certain sites | [Click](https://amnezia.org)   | [Google](https://amnezia.org/https://storage.googleapis.com/amnezia/amnezia.org) [GitHub](https://github.com/amnezia-vpn/amnezia-client) |
+| ProtonVPN  | Stealth/WG/OVPN | 50/50 | Android/Win/iOS/MacOS/Linux | 10/10 Fast, no ads, secure               | [Click](https://protonvpn.com) | [GitHub](https://github.com/ProtonVPN)                                                                                                   |
 | PsiphonVPN | LI/SSH/WP       | 50/50 | Android/Win/iOS/Mac     | 7/10 Fast, slow connecting       | [Click](https://psiphon.ca)    | [GitHub](https://github.com/Psiphon-Inc)                                                                                                 |
 | Orbot      | Tor             | ✅     | Android/iOS/Mac         | 9/10 Fast, needs Tor bridges     | [Click](https://orbot.app)     | [GitHub](https://github.com/guardianproject) [GitLab](https://gitlab.com/guardianproject)                                                |
 
 ### My solutions
-| Name              | Description                                                                                                                                                    |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ProtonOverAmnezia | Connect to Proton using WG confings on their [site](https://protonvpn.com) and "Obfuscate WG" setting in AmneziaVPN                                            |
-| ProtonOverAWG     | Connect to Proton using WG confings on their [site](https://protonvpn.com) and modifying setting in native AWG client (JC = 3 or 4 or 5, Jmin = 40, Jmax = 70) |
+| Name              | Description                                                                                                                                                    | Free  | OS                      | My review                        |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------| - | - | - |
+| ProtonOverAmnezia | Connect to Proton using WG confings on their [site](https://protonvpn.com) and "Obfuscate WG" setting in AmneziaVPN                                            | ✅ | Android/iOS/MacOS/Linux | 10/10 |
+| ProtonOverAWG     | Connect to Proton using WG confings on their [site](https://protonvpn.com) and modifying setting in native AWG client (JC = 3 or 4 or 5, Jmin = 40, Jmax = 70) | ✅ | Android/iOS/MacOS/Linux | 10/10 |
 
 ### README
 VPN - Virtual Private Network
@@ -43,7 +43,39 @@ Tor - The Onion Router, private network
 
 Onion routing - technique for anonymous communication over a computer network
 
+Tor bridges - Relays that help access the Tor network
+
 AmneziaVPN client - modern client for most VPN protocols
 
 AmneziaWG native client - WG client modifyed to work with AWG
 
+## Other software
+### Ready solutions
+| Name         | Description                                                                                | Free | OS                          | My review                                                        | Site                                             | Mirror                                                                      |
+|--------------|--------------------------------------------------------------------------------------------|------|-----------------------------|------------------------------------------------------------------|--------------------------------------------------|-----------------------------------------------------------------------------|
+| GoodbyeDPI   | TCP-only passive DPI blocker and active DPI circumvention utility                          | ✅    | Windows                     | 8/10 Only TCP                                                    | [GitHub](https://github.com/ValdikSS/GoodbyeDPI) |                                                                             |
+| Zapret       | TCP/UDP DPI bypass utility                                                                 | ✅    | Windows/Mac/Linux           | 7/10 Doesn't work for me, but got high reviews from other people | [GitHub](https://github.com/bol-van/zapret)      |                                                                             |
+| Tor browser  | Web browser that uses TOR network                                                          | ✅    | Android/Win/MacOS/Linux | 8/10 Needs bridges                                               | [Click](https://www.torproject.org)              | [GitHub](https://github.com/TheTorProject/gettorbrowser)                    |
+| Ceno browser | Web browser that uses Ouinet network                                                       | ✅    | Android/Windows             | 8/10 Nice but slow                                               | [Click](https://censorship.no)                   | [GitHub](https://github.com/ceno-app) [GitLab](https://gitlab.com/ceno-app) |
+| Paskoocheh   | App store that uses Ouinet network with various anti-internet-censorship/blocking software | ✅    | Android/Win/iOS/MacOS/Linux | 10/10 Awesome                                                    | [Click](https://paskoocheh.com)                  |       
+| Onion Browser   | Unofficial Tor browser for iOS, recommended by the Tor Project team | ✅    | iOS | I don`t have an iPhone or iPad                                                    | [Click](https://onionbrowser.com)                  |                                                                         |
+
+### My solutions
+| Name              | Description                                   | Free | OS      | My review                         |
+|-------------------|-----------------------------------------------|------|---------|-----------------------------------|
+| GoodbyeDPI+Zapret | Simply launching GDPI and Zapret at same time | ✅    | Windows | 10/10 Finally, Discord with working calls |
+
+### README
+DPI - Deep Packet Inspection, used for censoring/blocking internet access
+
+Tor - The Onion Router, private network
+
+Onion routing - technique for anonymous communication over a computer network
+
+Tor bridges - Relays that help access the Tor network
+
+TCP - Transmission Control Protocol
+
+UDP - User Datagram Protocol
+
+Ouinet - BitTorrent based P2P network
