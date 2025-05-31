@@ -79,3 +79,21 @@ TCP - Transmission Control Protocol
 UDP - User Datagram Protocol
 
 Ouinet - BitTorrent based P2P network
+
+## Other stuff
+### Mirrors
+#### GetTor (Tor Browser)
+Send an email to gettor@torproject.org In the body of the mail, write the name of your operating system (such as Windows, macOS, or Linux). GetTor will respond with an email containing links from which you can download Tor Browser, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package's checksum. You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using; consult documentation about your computer to find out more. Note that you must send the email using one of the following email providers: Riseup or Gmail.
+#### Download via Email (PsiphonVPN)
+Works similar to GetTor, just send at empty email to get@psiphon3.com
+### Tor bridges
+#### BridgeDB
+https://bridges.torproject.org/options
+#### BridgeDB over Email
+Send an email to bridges@torproject.org. Leave the subject blank and write "get transport obfs4" in the body. Note that you must send the email using one of the following email providers: Riseup or Gmail.
+#### ntc.party bridges
+https://torscan-ru.ntc.party/
+#### GetBridges Telegram bot
+https://t.me/GetBridgesBot
+#### Tor Relay Scanner (from GoodbyeDPI creator)
+https://github.com/ValdikSS/tor-relay-scanner
