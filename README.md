@@ -13,8 +13,8 @@ My collection of ways to bypass internet censorship/blocking
 ### My solutions
 | Name              | Description                                                                                                                                                    | Free  | OS                      | My review                        |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------| - | - | - |
-| ProtonOverAmnezia | Connect to Proton using WG confings on their [site](https://protonvpn.com) and "Obfuscate WG" setting in AmneziaVPN                                            | ✅ | Android/iOS/MacOS/Linux | 10/10 |
-| ProtonOverAWG     | Connect to Proton using WG confings on their [site](https://protonvpn.com) and modifying setting in native AWG client (JC = 3 or 4 or 5, Jmin = 40, Jmax = 70) | ✅ | Android/iOS/MacOS/Linux | 10/10 |
+| ProtonOverAmnezia | Connect to Proton using WG confings on their [site](https://protonvpn.com) and "Obfuscate WG" setting in AmneziaVPN client                                           | ✅ | Android/iOS/MacOS/Linux | 10/10 |
+| ProtonOverAWG     | Connect to Proton using WG confings on their [site](https://protonvpn.com) and modifying settings in native AWG client (JC = 3 or 4 or 5, Jmin = 40, Jmax = 70) | ✅ | Android/iOS/MacOS/Linux | 10/10 |
 
 ### Dictionary
 VPN - Virtual Private Network
@@ -83,14 +83,14 @@ Ouinet - BitTorrent based P2P network
 ## Other stuff
 ### Mirrors
 #### GetTor (Tor Browser)
-Send an email to gettor@torproject.org In the body of the mail, write the name of your operating system (such as Windows, macOS, or Linux). GetTor will respond with an email containing links from which you can download Tor Browser, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package's checksum. You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using; consult documentation about your computer to find out more. Note that you must send the email using one of the following email providers: Riseup or Gmail.
+Send an email to gettor@torproject.org In the body of the mail, write the name of your operating system (such as Windows, macOS, or Linux). GetTor will respond with an email containing links from which you can download Tor Browser, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package's checksum. You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using; consult documentation about your computer to find out more. Note that you must send the email using one of the following email providers: Riseup or Gmail
 #### Download via Email (PsiphonVPN)
 Works similar to GetTor, just send at empty email to get@psiphon3.com
 ### Tor bridges
 #### BridgeDB
 https://bridges.torproject.org/options
 #### BridgeDB over Email
-Send an email to bridges@torproject.org. Leave the subject blank and write "get transport obfs4" in the body. Note that you must send the email using one of the following email providers: Riseup or Gmail.
+Send an email to bridges@torproject.org. Leave the subject blank and write "get transport obfs4" in the body. Note that you must send the email using one of the following email providers: Riseup or Gmail
 #### ntc.party bridges
 https://torscan-ru.ntc.party/
 #### GetBridges Telegram bot
