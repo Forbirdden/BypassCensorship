@@ -35,6 +35,7 @@ Onion routing - technique for anonymous communication over a computer network
 Tor bridges - Relays that help access the Tor network
 AmneziaVPN client - modern client for most VPN protocols
 AmneziaWG native client - WG client modifyed to work with AWG
+WARP - VPN made by Cloudflare
 ```
 ## Other software
 ### Ready solutions
