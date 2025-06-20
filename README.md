@@ -17,38 +17,24 @@ My collection of ways to bypass internet censorship/blocking
 | ProtonOverAWG     | Connect to Proton using WG confings on their [site](https://protonvpn.com) and modifying settings in native AWG client (JC = 3 or 4 or 5, Jmin = 40, Jmax = 70) | ✅ | Android/iOS/MacOS/Linux | 10/10 |
 
 ### Dictionary
+```
 VPN - Virtual Private Network
-
 AWG - AmneziaWG VPN protocol, fork of WG with DPI protection
-
 WG - WireGuard VPN protocol
-
 DPI - Deep Packet Inspection, used for censoring/blocking internet access
-
 Stealth - VPN protocol made by Proton
-
 OVPN - OpenVPN protocol
-
-Li - L2TP over IPSec
-
+LI - L2TP over IPSec
 L2TP - Layer 2 Tunneling (VPN) Protocol
-
 IPsec - Internet Protocol Security
-
 SSH - Secure Shell protocol
-
 WP - Web Proxy
-
 Tor - The Onion Router, private network
-
 Onion routing - technique for anonymous communication over a computer network
-
 Tor bridges - Relays that help access the Tor network
-
 AmneziaVPN client - modern client for most VPN protocols
-
 AmneziaWG native client - WG client modifyed to work with AWG
-
+```
 ## Other software
 ### Ready solutions
 | Name         | Description                                                                                | Free | OS                          | My review                                                        | Site                                             | Mirror                                                                      |
